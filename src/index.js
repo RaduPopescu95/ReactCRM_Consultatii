@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import AppRouter from "./approuter";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
-import "react-image-lightbox/style.css";
+// import "react-image-lightbox/style.css";
 import "react-datepicker/dist/react-datepicker.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

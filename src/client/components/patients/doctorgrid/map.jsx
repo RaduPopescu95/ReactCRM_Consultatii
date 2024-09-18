@@ -115,6 +115,7 @@ export const MapContainer = (props) => {
   );
 };
 
-export default GoogleApiWrapper({
-  apiKey: "",
-})(MapContainer);
+// export default GoogleApiWrapper({
+//   apiKey: "",
+// })(MapContainer);
+export default MapContainer;
