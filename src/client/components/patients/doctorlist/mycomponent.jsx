@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Lightbox from "react-image-lightbox";
-import "react-image-lightbox/style.css";
+// import Lightbox from "react-image-lightbox";
+// import "react-image-lightbox/style.css";
 import img1 from "../../../assets/images/feature-01.jpg";
 import img2 from "../../../assets/images/feature-02.jpg";
 import img3 from "../../../assets/images/feature-03.jpg";
@@ -32,7 +32,7 @@ const MyComponent = () => {
         ))}
       </ul>
 
-      {lightboxOpen && (
+      {/* {lightboxOpen && (
         <Lightbox
           mainSrc={images[lightboxIndex]}
           nextSrc={images[(lightboxIndex + 1) % images.length]}
@@ -47,7 +47,7 @@ const MyComponent = () => {
             setLightboxIndex((lightboxIndex + 1) % images.length)
           }
         />
-      )}
+      )} */}
     </div>
   );
 };

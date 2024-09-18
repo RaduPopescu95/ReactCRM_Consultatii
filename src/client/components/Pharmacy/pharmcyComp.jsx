@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Gallery from "react-photo-gallery";
-import Lightbox from "react-images";
+// import Gallery from "react-photo-gallery";
+// import Lightbox from "react-images";
 import {
   IMG_fe_01,
   IMG_fe_02,
@@ -31,11 +31,11 @@ const PharmacyComp = () => {
 
   return (
     <div>
-      <Gallery
+      {/* <Gallery
         photos={photos}
         onClick={(e, { photo, index }) => openLightbox(index)}
-      />
-      <Lightbox
+      /> */}
+      {/* <Lightbox
         images={photos.map((photo) => ({
           ...photo,
           dataAttribute: photo["data-attribute"],
@@ -45,7 +45,7 @@ const PharmacyComp = () => {
         onClickNext={() => setCurrentImage(currentImage + 1)}
         currentImage={currentImage}
         isOpen={viewerIsOpen}
-      />
+      /> */}
     </div>
   );
 };

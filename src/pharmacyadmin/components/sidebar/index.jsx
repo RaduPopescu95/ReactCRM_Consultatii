@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { Scrollbars } from "react-custom-scrollbars";
+import { Scrollbars } from "react-custom-scrollbars-2";
 import { useLocation } from "react-router-dom/cjs/react-router-dom.min";
 
 const SidebarNav = () => {
@@ -24,7 +24,10 @@ const SidebarNav = () => {
   const [isMouseOverSidebar, setMouseOverSidebar] = useState(false);
 
   useEffect(() => {
-    if (isMouseOverSidebar && document.body.classList.contains("mini-sidebar")) {
+    if (
+      isMouseOverSidebar &&
+      document.body.classList.contains("mini-sidebar")
+    ) {
       document.body.classList.add("expand-menu");
       return;
     }
@@ -40,24 +43,24 @@ const SidebarNav = () => {
   };
   return (
     <div
-    className={`sidebar ${isSidebarExpanded ? "" : "hidden"}`}
-    id="sidebar"
-    onMouseEnter={handleMouseEnter}
-    onMouseLeave={handleMouseLeave}
-  >
-  <Scrollbars
-  autoHide
-  autoHideTimeout={1000}
-  autoHideDuration={200}
-  autoHeight
-  autoHeightMin={0}
-  autoHeightMax="95vh"
-  thumbMinSize={30}
-  universal={false}
-  hideTracksWhenNotNeeded={true}
->
-<div className="sidebar-inner slimscroll">
-<div id="sidebar-menu" className="sidebar-menu">
+      className={`sidebar ${isSidebarExpanded ? "" : "hidden"}`}
+      id="sidebar"
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
+      <Scrollbars
+        autoHide
+        autoHideTimeout={1000}
+        autoHideDuration={200}
+        autoHeight
+        autoHeightMin={0}
+        autoHeightMax="95vh"
+        thumbMinSize={30}
+        universal={false}
+        hideTracksWhenNotNeeded={true}
+      >
+        <div className="sidebar-inner slimscroll">
+          <div id="sidebar-menu" className="sidebar-menu">
             <ul>
               <li className="menu-title">
                 <span>Main</span>

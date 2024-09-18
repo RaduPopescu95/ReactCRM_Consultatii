@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Gallery from "react-photo-gallery";
-import Lightbox from "react-images";
+// import Gallery from "react-photo-gallery";
+// import Lightbox from "react-images";
 
 import { IMG_fe_01, IMG_fe_02, IMG_fe_03, IMG_fe_04 } from "./img";
 
@@ -27,18 +27,18 @@ const MyComponent = () => {
 
   return (
     <div>
-      <Gallery
+      {/* <Gallery
         photos={photos}
         onClick={(e, { photo, index }) => openLightbox(index)}
-      />
-      <Lightbox
+      /> */}
+      {/* <Lightbox
         images={photos.map((photo) => ({ src: photo.src }))}
         onClose={closeLightbox}
         onClickPrev={() => setCurrentImage(currentImage - 1)}
         onClickNext={() => setCurrentImage(currentImage + 1)}
         currentImage={currentImage}
         isOpen={viewerIsOpen}
-      />
+      /> */}
     </div>
   );
 };

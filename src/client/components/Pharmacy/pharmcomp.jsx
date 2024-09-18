@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Gallery from "react-photo-gallery";
-import Lightbox from "react-images";
+// import Gallery from "react-photo-gallery";
+// import Lightbox from "react-images";
 
 import { feature01, feature02, feature03, feature04 } from "./image";
 
@@ -27,18 +27,18 @@ const PharmacyComp = () => {
 
   return (
     <div>
-      <Gallery
+      {/* <Gallery
         photos={photos}
         onClick={(e, { photo, index }) => openLightbox(index)}
-      />
-      <Lightbox
+      /> */}
+      {/* <Lightbox
         images={photos.map((photo) => ({ src: photo.src }))}
         onClose={closeLightbox}
         onClickPrev={() => setCurrentImage(currentImage - 1)}
         onClickNext={() => setCurrentImage(currentImage + 1)}
         currentImage={currentImage}
         isOpen={viewerIsOpen}
-      />
+      /> */}
     </div>
   );
 };
