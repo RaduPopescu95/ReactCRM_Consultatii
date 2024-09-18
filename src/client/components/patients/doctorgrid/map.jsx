@@ -3,7 +3,7 @@
 /* eslint-disable react/prop-types */
 /* global google */
 import React, { useState } from "react";
-import { Map, Marker, GoogleApiWrapper, InfoWindow } from "google-maps-react";
+// import { Map, Marker, GoogleApiWrapper, InfoWindow } from "google-maps-react";
 // import InfoWindowEx from "./InfoWindowEx";
 import Iconmap from "../../../assets/images/marker.png";
 
@@ -26,7 +26,7 @@ export const MapContainer = (props) => {
 
   return (
     <div className="map-container">
-      <Map
+      {/* <Map
         google={props.google}
         className={"map"}
         zoom={4}
@@ -104,13 +104,13 @@ export const MapContainer = (props) => {
             </div>
           </div>
         </InfoWindow>
-        {/* <InfoWindowEx
+        <InfoWindowEx
           marker={state.activeMarker}
           visible={state.showingInfoWindow}
         >
           
-        </InfoWindowEx> */}
-      </Map>
+        </InfoWindowEx>
+      </Map> */}
     </div>
   );
 };

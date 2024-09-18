@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import React, { useEffect, useRef } from "react";
 import ReactDOM from "react-dom";
-import { InfoWindow } from "google-maps-react";
+// import { InfoWindow } from "google-maps-react";
 
 export default function InfoWindowEx(props) {
   const infoWindowRef = useRef(null);
@@ -16,8 +16,9 @@ export default function InfoWindowEx(props) {
   }, [props, infoWindowRef.current, contentElementRef.current]);
 
   return (
-    <InfoWindow ref={infoWindowRef} {...props}>
-      <div ref={contentElementRef} />
-    </InfoWindow>
+    // <InfoWindow ref={infoWindowRef} {...props}>
+    //   <div ref={contentElementRef} />
+    // </InfoWindow>
+    <div></div>
   );
 }
