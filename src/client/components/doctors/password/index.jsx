@@ -3,6 +3,7 @@ import Header from "../../header";
 import DoctorSidebar from "../sidebar/index";
 import DoctorFooter from "../../common/doctorFooter";
 import { Link } from "react-router-dom";
+import Home1Header from "../../home/home-1/header";
 
 const Password = (props) => {
   const [showPassword, setShowPassword] = useState(false);
@@ -16,7 +17,7 @@ const Password = (props) => {
   };
   return (
     <div>
-      <Header {...props} />
+      <Home1Header />
       {/* Breadcrumb */}
       <div className="breadcrumb-bar-two">
         <div className="container">

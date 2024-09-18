@@ -5,11 +5,12 @@ import DateRangePicker from "react-bootstrap-daterangepicker";
 import "bootstrap-daterangepicker/daterangepicker.css";
 import Header from "../../header";
 import Footer from "../../footer";
+import Home1Header from "../../home/home-1/header";
 
 const Booking = (props) => {
   return (
     <div>
-      <Header {...props} />
+      <Home1Header />
       <div className="breadcrumb-bar-two">
         <div className="container">
           <div className="row align-items-center inner-banner">

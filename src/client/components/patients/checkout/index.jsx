@@ -4,6 +4,7 @@ import IMG01 from "../../../assets/images/patient2.jpg";
 import Header from "../../header";
 import Footer from "../../footer";
 import StickyBox from "react-sticky-box";
+import Home1Header from "../../home/home-1/header";
 
 const Checkout = (props) => {
   const config = "/react/template";
@@ -13,7 +14,7 @@ const Checkout = (props) => {
 
   return (
     <div>
-      <Header {...props} />
+      <Home1Header />
 
       {/* <!-- Breadcrumb --> */}
       <div className="breadcrumb-bar-two">

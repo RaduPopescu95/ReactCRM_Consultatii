@@ -2,11 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Header from "../../header";
 import Footer from "../../footer";
+import Home1Header from "../../home/home-1/header";
 
 const BookingSuccess = (props) => {
   return (
     <>
-      <Header {...props} />
+      <Home1Header />
       {/* // <!-- Breadcrumb --> */}
       <div className="breadcrumb-bar-two">
         <div className="container">

@@ -50,10 +50,11 @@ const Home1Header = () => {
               </div>
               <ul className="main-nav">
                 <li className="has-submenu megamenu active">
-                  <Link to="#">
-                    Home <i className="fas fa-chevron-down" />
+                  <Link to="/home-1">
+                    {/* Acasa <i className="fas fa-chevron-down" /> */}
+                    Acasa
                   </Link>
-                  <ul className="submenu mega-submenu">
+                  {/* <ul className="submenu mega-submenu">
                     <li>
                       <div className="megamenu-wrapper">
                         <div className="row">
@@ -315,13 +316,14 @@ const Home1Header = () => {
                         </div>
                       </div>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li className="has-submenu">
                   <Link to="#">
-                    Doctors <i className="fas fa-chevron-down" />
+                    {/* Cristina Zurba - Tarot <i className="fas fa-chevron-down" /> */}
+                    Cristina Zurba - Tarot
                   </Link>
-                  <ul className="submenu">
+                  {/* <ul className="submenu">
                     <li>
                       <Link to="/doctor/doctor-dashboard">
                         Doctor Dashboard
@@ -370,9 +372,9 @@ const Home1Header = () => {
                         </li>
                       </ul>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
-                <li className="has-submenu">
+                {/* <li className="has-submenu">
                   <Link to="#">
                     Patients <i className="fas fa-chevron-down" />
                   </Link>
@@ -451,8 +453,8 @@ const Home1Header = () => {
                       <Link to="/patient/change-password">Change Password</Link>
                     </li>
                   </ul>
-                </li>
-                <li className="has-submenu">
+                </li> */}
+                {/* <li className="has-submenu">
                   <Link to="#">
                     Pharmacy <i className="fas fa-chevron-down" />
                   </Link>
@@ -497,12 +499,10 @@ const Home1Header = () => {
                       </Link>
                     </li>
                   </ul>
-                </li>
+                </li> */}
                 <li className="has-submenu">
-                  <Link to="#">
-                    Pages <i className="fas fa-chevron-down" />
-                  </Link>
-                  <ul className="submenu">
+                  <Link to="#">Despre platforma</Link>
+                  {/* <ul className="submenu">
                     <li>
                       <Link to="/pages/aboutus">About Us</Link>
                     </li>
@@ -599,13 +599,14 @@ const Home1Header = () => {
                     <li>
                       <Link to="/pages/component">Components</Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li className="has-submenu">
                   <Link to="#">
-                    Blog <i className="fas fa-chevron-down" />
+                    Termeni si conditii
+                    {/* Termeni si conditii <i className="fas fa-chevron-down" /> */}
                   </Link>
-                  <ul className="submenu">
+                  {/* <ul className="submenu">
                     <li>
                       <Link to="/blog/blog-list">Blog List</Link>
                     </li>
@@ -615,9 +616,9 @@ const Home1Header = () => {
                     <li>
                       <Link to="/blog/blog-details">Blog Details</Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
-                <li className="has-submenu">
+                {/* <li className="has-submenu">
                   <Link to="#">
                     Admin <i className="fas fa-chevron-down" />
                   </Link>
@@ -633,8 +634,8 @@ const Home1Header = () => {
                       </Link>
                     </li>
                   </ul>
-                </li>
-                <li className="searchbar">
+                </li> */}
+                {/* <li className="searchbar">
                   <Link to="#" onClick={toggleSearch}>
                     <i className="feather icon-search" />
                   </Link>
@@ -658,7 +659,7 @@ const Home1Header = () => {
                       </div>
                     </form>
                   </div>
-                </li>
+                </li> */}
                 <li className="login-link">
                   <Link to="/login">Login / Signup</Link>
                 </li>

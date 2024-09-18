@@ -4,6 +4,7 @@ import StickyBox from "react-sticky-box";
 import Footer from "../../../footer";
 import { Link } from "react-router-dom";
 import Header from "../../../header.jsx";
+import Home1Header from "../../../home/home-1/header.jsx";
 
 const Password = (props) => {
   const [showPassword, setShowPassword] = useState(false);
@@ -17,7 +18,7 @@ const Password = (props) => {
   };
   return (
     <div>
-      <Header {...props} />
+      <Home1Header />
       <div className="breadcrumb-bar-two">
         <div className="container">
           <div className="row align-items-center inner-banner">

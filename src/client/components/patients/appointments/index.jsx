@@ -17,11 +17,12 @@ import { Filter, initialSettings } from "../../common/filter";
 import CristinaImage from "../../../assets/images/doctors-dashboard/profilecristina.png";
 
 import DateRangePicker from "react-bootstrap-daterangepicker";
+import Home1Header from "../../home/home-1/header";
 
 const PatientAppointments = (props) => {
   return (
     <>
-      <Header {...props} />
+      <Home1Header />
       <div className="breadcrumb-bar-two">
         <div className="container">
           <div className="row align-items-center inner-banner">

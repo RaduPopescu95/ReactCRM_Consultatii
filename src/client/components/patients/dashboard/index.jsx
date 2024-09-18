@@ -56,6 +56,7 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
+import Home1Header from "../../home/home-1/header.jsx";
 
 const Dashboard = (props) => {
   const TextContent = () => <p>Last Visit 25 Mar 2024</p>;
@@ -287,7 +288,7 @@ const Dashboard = (props) => {
 
   return (
     <>
-      <Header {...props} />
+      <Home1Header />
       {/* Breadcrumb */}
       <div className="breadcrumb-bar-two">
         <div className="container">
